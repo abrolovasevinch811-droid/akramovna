@@ -1,0 +1,63 @@
+* {
+    mrgin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+.h1 {
+    
+    text-align: center;
+}
+
+nav {
+    color: white;
+    border-radius: 50px;
+    margin: 126px;
+    border: 2px solid black;
+    background-color: black;
+    width: 700px;
+    margin: 0 auto;
+    box-shadow: 7px 12px 14px 0px #000000C2;
+}
+.img{
+   margin-top: 125px;
+   padding-left: 175px;
+   display: flex;
+   gap: 102px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 30px;
+}
+.h3{
+    font-size: 48px;
+}
+.p1{
+    width: 30px;
+    background-color: red;
+}
+.icon-box {
+  position: relative;
+  display: inline-block;
+}
+.badge {
+  position: absolute;
+  top: -35px;          
+  right: -45px;           
+  background-color: #e62e2e; 
+  color: white;
+  font-weight: 800;
+  font-size: 48px;
+  
+  padding: 16px 40px;
+  border-radius: 60px; 
+  min-width: 50px;
+  text-align: center;
+}
+.badge-tiktok{
+    right: 8px;
+}
